@@ -1,0 +1,42 @@
+/*
+*Tara Frane
+*November 28, 2018
+*Girl Develop It
+*/
+
+/* The Universal selector */
+
+*{ 
+
+}
+
+/* Body attributes here */
+
+body {
+    background-color:#ffcccc;
+    font-size: 14pt;
+}
+header {text-align: center;
+        background-color:#ff6666;
+}
+main {background-color:  #ffcccc;
+    font-family: "Lucida Grande", "Sans-Serif";
+}
+h2 {font-family: "Apple Chancery", Cursive;}
+h3 {font-family: "Apple Chancery", Cursive;}
+a:hover, a:focus {color:fuchsia;
+                 /*this is used to make the links larger when you hover over them*/ font-size: 20pt;}
+#logo {
+    height: 200px;
+    width: 800px;
+}
+#laptops {
+    float:right;
+    height: 200px;
+    width: 350px;
+}
+#boyfriend {
+    float:right;
+    height: 200px;
+    width: 350px;
+}
